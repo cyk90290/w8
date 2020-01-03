@@ -1,0 +1,9 @@
+package com.example.lib;
+
+import java.util.Scanner;
+
+public class w8 {
+    public static void main(String[] args) {
+        Scanner scanner =new Scanner(System.in);
+        MyClass MyClass = new MyClass(Integer.parseInt(scanner.next()),Integer.parseInt(scanner.next()));
+    }
